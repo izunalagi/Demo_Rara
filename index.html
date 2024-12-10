@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #f5faff, #fff);
+        }
+
+        .cinnamon-bg {
+            background-image: url('./image/cin 4.png');
+            background-repeat: no-repeat;
+            background-size: 200px;
+            background-position: center right;
+        }
+    </style>
+</head>
+
+<body class="text-gray-800 font-sans relative">
+    <!-- Header Section -->
+    <header class="bg-blue-100 py-6 shadow-md">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-blue-500">My Portfolio</h1>
+            <nav>
+                <a href="#projects" class="text-blue-500 font-semibold mx-3 hover:underline">Projects</a>
+                <a href="#skills" class="text-blue-500 font-semibold mx-3 hover:underline">Skills</a>
+                <a href="#contact" class="text-blue-500 font-semibold mx-3 hover:underline">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-12 bg-gradient-to-br from-blue-50 via-white to-blue-100 relative overflow-hidden">
+        <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 items-center gap-6">
+            <!-- Foto Kiri -->
+            <div class="hidden md:block">
+                <img src="./image/rara 2.jpeg" alt="Left Photo"
+                    class="w-48 h-48 rounded-full shadow-lg mx-auto border-4 border-blue-200">
+            </div>
+
+            <!-- Konten Tengah -->
+            <div class="text-center">
+                <h2 class="text-5xl font-extrabold text-blue-600">Kiarra Putri M.K.W</h2>
+                <p class="text-2xl text-blue-400 mt-2">System Analyst IT</p>
+                <p class="mt-4 text-lg text-gray-600">"I am passionate about creating innovative and efficient IT
+                    solutions. Let's work together to make ideas a reality."</p>
+                <div class="mt-6 flex justify-center space-x-4">
+                    <a href="#" class="text-blue-600 hover:text-blue-400"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="#" class="text-blue-600 hover:text-blue-400"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="#" class="text-blue-600 hover:text-blue-400"><i class="fab fa-twitter fa-2x"></i></a>
+                </div>
+            </div>
+
+            <!-- Foto Kanan -->
+            <div class="hidden md:block">
+                <img src="./image/rara 1.jpeg" alt="Right Photo"
+                    class="w-48 h-48 rounded-full shadow-lg mx-auto border-4 border-blue-200">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold text-blue-500 mb-6 text-center">Projects</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Project Card 1 -->
+                <div class="bg-blue-100 p-6 rounded-lg shadow-md relative">
+                    <h4 class="text-2xl font-bold text-blue-600">E-Learning Platform</h4>
+                    <p class="mt-2 text-gray-700">Developed a user-friendly e-learning platform for schools and
+                        universities.</p>
+                    <a href="#" class="text-blue-500 mt-4 block hover:underline">View Project</a>
+                    <img src="./image/cin 5.png" alt="Cinnamonroll Decoration"
+                        class="absolute -bottom-14 -left-10 w-32 h-29">
+                </div>
+                <!-- Project Card 2 -->
+                <div class="bg-blue-100 p-6 rounded-lg shadow-md relative">
+                    <h4 class="text-2xl font-bold text-blue-600">E-Commerce Website</h4>
+                    <p class="mt-2 text-gray-700">Created a full-stack e-commerce solution with secure payment
+                        integration.</p>
+                    <a href="#" class="text-blue-500 mt-4 block hover:underline">View Project</a>
+                    <img src="./image/cin 6.png" alt="Cinnamonroll Decoration"
+                        class="absolute -top-14 -right-7 w-32 h-29">
+                </div>
+                <!-- Project Card 3 -->
+                <div class="bg-blue-100 p-6 rounded-lg shadow-md relative">
+                    <h4 class="text-2xl font-bold text-blue-600">Mobile App for Fitness</h4>
+                    <p class="mt-2 text-gray-700">Built a mobile app for tracking fitness activities and diet plans.</p>
+                    <a href="#" class="text-blue-500 mt-4 block hover:underline">View Project</a>
+                    <img src="./image/cin 7.png" alt="Cinnamonroll Decoration"
+                        class="absolute -bottom-7 -right-11 w-32 h-29">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-12 bg-blue-50">
+        <div class="container mx-auto px-6">
+            <h3 class="text-3xl font-bold text-blue-500 mb-6 text-center">Skills</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Soft Skills -->
+                <div class="p-6 bg-white rounded-lg shadow-md relative">
+                    <h4 class="text-xl font-bold text-blue-600 mb-2">Soft Skills</h4>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Communication</li>
+                        <li>Teamwork</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                    <img src="./image/cin 8.png" alt="Cinnamonroll Decoration"
+                        class="absolute -top-9 -left-4 w-16 h-16">
+                </div>
+                <!-- Hard Skills -->
+                <div class="p-6 bg-white rounded-lg shadow-md relative">
+                    <h4 class="text-xl font-bold text-blue-600 mb-2">Hard Skills</h4>
+                    <ul class="list-disc list-inside text-gray-700">
+                        <li>Programming</li>
+                        <li>Networking</li>
+                        <li>UI/UX Design</li>
+                    </ul>
+                    <img src="./image/cin 9.png" alt="Cinnamonroll Decoration"
+                        class="absolute -bottom-4 -right-4 w-18 h-16">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-100 py-4 text-center">
+        <p class="text-gray-600">&copy; 2024 Kiarra Putri. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
